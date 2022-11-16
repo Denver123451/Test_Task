@@ -1,7 +1,5 @@
 .banner {
-    background: #f5f5f7 url("../img/bg.jpg") no-repeat;
-
-
+    background: #fff url("../img/bg.jpg") no-repeat center;
 }
 
 .banner__title {
@@ -52,4 +50,8 @@
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     color: #67AEFC;
+}
+
+.banner__button-wrapper {
+    padding-bottom: 180px;
 }

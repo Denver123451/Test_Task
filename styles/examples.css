@@ -1,0 +1,51 @@
+.examples {
+    background: #DAECFF url("../img/BG-4.png") no-repeat center;
+    text-align: center;
+}
+
+.examples__title {
+    padding-top: 121px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #111111;
+    padding-bottom: 51px;
+}
+
+.examples__images {
+    padding-bottom: 121px;
+}
+
+.examples__images-line {
+    display: flex;
+    padding-bottom: 38px;
+}
+
+.img_first {
+    padding-right: 33px;
+}
+
+.img_normal {
+    max-width: 563px;
+    max-height: 442px;
+    transition: 0.9s ease-in-out;
+}
+
+.img__hover {
+    max-width: 563px;
+    max-height: 442px;
+    opacity: 0;
+    display:none;
+    transition: 0.9s ease-in-out;
+}
+
+.img_first:hover .img__hover {
+    opacity: 1;
+    display: block;
+
+}
+
+.img_first:hover .img_normal {
+    opacity: 0;
+    display:none;
+}
