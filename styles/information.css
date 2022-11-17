@@ -1,0 +1,36 @@
+.information {
+    background: #ffffff url("../img/bg-5.png") no-repeat center;
+    text-align: left;
+}
+
+.information__title {
+    padding-top: 216px;
+    padding-bottom: 53px;
+    font-weight: 800;
+    font-size: 32px;
+    color: #111111;
+}
+
+.information__txt {
+    max-width: 670px;
+    padding-bottom: 67px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #111111;
+}
+
+.information__btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #75E169;
+    border-radius: 5px;
+    padding: 22px 56px;
+}
+
+.information__btn_holder {
+    padding-bottom: 180px;
+}
