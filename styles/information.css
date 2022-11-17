@@ -29,8 +29,22 @@
     background: #75E169;
     border-radius: 5px;
     padding: 22px 56px;
+    transition: 0.3s ease-in-out;
 }
 
 .information__btn_holder {
     padding-bottom: 180px;
+}
+
+.information__btn:hover {
+    background: #75E169;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.information__btn:active {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: #67AEFC;
 }

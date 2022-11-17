@@ -49,7 +49,22 @@
     background: #6BD75F;
     border-radius: 5px;
     margin: 0 auto;
+    transition: 0.3s ease-in-out;
 }
+
+.form__btn:hover {
+    background: #75E169;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.form__btn:active {
+    color: #67AEFC;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
 
 .form__input::placeholder {
     font-weight: 400;
